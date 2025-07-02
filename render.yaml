@@ -3,5 +3,5 @@ Services:
    name: flask-chat
    env: python
    buildCommand: ""
-   statrtCommand: gunicorn --worker--class eventlet -w 1 chat:app
+   startCommand: gunicorn --worker--class eventlet -w 1 chat:app
    autoDeploy: true
